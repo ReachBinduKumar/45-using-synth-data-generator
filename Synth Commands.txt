@@ -1,19 +1,23 @@
 /*COMMAND 1*/
 
-synth generate --collection customer_v1 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
+synth generate --collection customer_v1
 
 /*COMMAND 2*/
 
-synth generate --collection customer_v2 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
+synth generate --collection customer_v1 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
 
 /*COMMAND 3*/
 
-synth generate --collection customer_v3 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
+synth generate --collection customer_v2 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
 
 /*COMMAND 4*/
 
-synth generate --collection customer_v4 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
+synth generate --collection customer_v3 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
 
 /*COMMAND 5*/
+
+synth generate --collection customer_v4 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
+
+/*COMMAND 6*/
 
 synth generate --collection address_v1 --schema customerdata --to postgres://postgres:postgres@localhost:5432/mockupdata --size 30 customerdata
