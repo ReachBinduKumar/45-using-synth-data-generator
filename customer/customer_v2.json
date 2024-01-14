@@ -22,7 +22,7 @@
 				"type": "string",
 				"faker":
 				{
-				"generator": "safe_email"
+					"generator": "safe_email"
 				}
 			}
 		}
